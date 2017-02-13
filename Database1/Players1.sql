@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Players1]
+(
+	[Id] INT NOT NULL IDENTITY,
+	[Name] VARCHAR(64) NOT NULL,
+	[Number] INT NOT NULL
+	CONSTRAINT [PK_Players1] PRIMARY KEY ([Id])
+)
